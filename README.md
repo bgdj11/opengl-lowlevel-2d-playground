@@ -33,7 +33,7 @@ Scene 1
 Scene 2
 - A reporter sprite and a scrolling news ticker rendered with the bitmap font
 
-Scene 3 — Settings
+Scene 3 - Settings
 - Use Up and Down to select an option
 - Press Enter to apply
 - Options: Volume Up, Volume Down, Brightness Up, Brightness Down, Change Clock Color
