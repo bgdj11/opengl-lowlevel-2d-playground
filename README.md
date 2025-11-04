@@ -86,13 +86,4 @@ If an image or font is missing you will see a message in the console and the app
 - Shows uniform updates for projection, model transforms and simple time based animation
 - The code favors explicit state changes and minimal abstraction to expose how the pipeline works
 
-## Known limitations and ideas
 
-- Clock geometry is rebuilt every frame. This can be optimized by reusing a VAO/VBO
-- Minimal error handling around shader uniform lookups could be improved
-- Input handling is simple polling. A proper input layer would improve responsiveness
-- Consider moving assets to a dedicated `assets/` folder and centralizing paths
-
-## License
-
-No license file is included. Add a license if you plan to publish and share. MIT is a common choice for teaching and templates
