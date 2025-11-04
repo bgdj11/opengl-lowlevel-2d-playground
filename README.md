@@ -1,4 +1,4 @@
-# Sablon — Low Level OpenGL Practice (C++/GLFW/GLEW/GLM)
+# Low Level OpenGL Practice (C++/GLFW/GLEW/GLM)
 
 A small Windows project that explores modern OpenGL 3.3 core profile from the ground up. It uses raw VAOs, VBOs, EBOs, shader compilation and linking, uniforms, textures, orthographic projection, clipping, blending and basic input. The goal is hands-on learning with minimal abstractions.
 
