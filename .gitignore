@@ -1,0 +1,53 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[bB]uild/
+[Bb]in/
+[Oo]bj/
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.pch
+*.pchi
+*.ipch
+*.tlog/
+*.lastbuildstate
+*.cache
+
+# VC++ intermediate
+*.sbr
+*.res
+*.exp
+*.lib
+*.log
+*.tmp
+*.exe.recipe
+*.VC.db
+*.VC.opendb
+
+# NuGet
+packages/
+!packages.config
+
+# CMake and Ninja
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+Makefile
+
+# Misc
+*.opendb
+*.DS_Store
+Thumbs.db
+.idea/
+*.iml

@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Shader Files">
+      <UniqueIdentifier>{a8b5ff39-85c7-4196-b461-819f918ebb58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\fonts">
+      <UniqueIdentifier>{50e4d82f-8ad7-484d-aa0c-f7a1735e2600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\textures">
+      <UniqueIdentifier>{dafd35d8-ce72-4f7c-8c4d-02df302c12d1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CartoonCharacter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Clock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="basic.frag">
+      <Filter>Source Files\Shader Files</Filter>
+    </None>
+    <None Include="basic.vert">
+      <Filter>Source Files\Shader Files</Filter>
+    </None>
+    <None Include="pulsating.frag">
+      <Filter>Source Files\Shader Files</Filter>
+    </None>
+    <None Include="text.vert">
+      <Filter>Source Files\Shader Files</Filter>
+    </None>
+    <None Include="myFont.fnt">
+      <Filter>Resource Files\fonts</Filter>
+    </None>
+    <None Include="text.frag">
+      <Filter>Source Files\Shader Files</Filter>
+    </None>
+    <None Include="color.frag">
+      <Filter>Source Files\Shader Files</Filter>
+    </None>
+    <None Include="character.vert">
+      <Filter>Source Files\Shader Files</Filter>
+    </None>
+    <None Include="character.frag">
+      <Filter>Source Files\Shader Files</Filter>
+    </None>
+    <None Include="basic2.vert">
+      <Filter>Source Files\Shader Files</Filter>
+    </None>
+    <None Include="overlay.vert">
+      <Filter>Source Files\Shader Files</Filter>
+    </None>
+    <None Include="overlay.frag" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stb_image.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CartoonCharacter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Clock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="myFont_0.tga">
+      <Filter>Resource Files\fonts</Filter>
+    </Image>
+    <Image Include="fedja.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="fica.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="reporter.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
